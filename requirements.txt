@@ -9,7 +9,4 @@ osmnx
 scipy
 matplotlib
 datashader
-hvplot
-geoviews
-holoviews
 xarray-spatial

@@ -9,10 +9,9 @@ Based on [REM-xarray](https://github.com/DahnJ/REM-xarray) by [DahnJ](https://gi
 # Run this notebook
 
 ```bash
-python -m venv rem-tutorial
-source rem-tutorial/bin/activate
+python -m venv river-flood-analysis-python
+source river-flood-analysis-python/bin/activate
 pip install -r requirements.txt
-jupyter notebook
 ```
 
 ### Downloading the data
