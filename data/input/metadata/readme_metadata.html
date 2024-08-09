@@ -1,0 +1,210 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Data Extract Readme</title>
+<style>
+/* -------------------------------------
+    GLOBAL
+------------------------------------- */
+* {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+}
+img {
+  max-width: 210px;
+  width: 100%;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  height: 100%;
+  -webkit-text-size-adjust: none;
+  width: 100% !important;
+}
+/* -------------------------------------
+    ELEMENTS
+------------------------------------- */
+a {
+  color: #348eda;
+}
+.btn-primary {
+  Margin-bottom: 10px;
+  width: auto !important;
+}
+.btn-primary td {
+  background-color: #348eda; 
+  border-radius: 25px;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-size: 14px; 
+  text-align: center;
+  vertical-align: top; 
+}
+.btn-primary td a {
+  background-color: #348eda;
+  border: solid 1px #348eda;
+  border-radius: 25px;
+  border-width: 10px 20px;
+  display: inline-block;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 2;
+  text-decoration: none;
+}
+.last {
+  margin-bottom: 0;
+}
+.first {
+  margin-top: 0;
+}
+.padding {
+  padding: 10px 0;
+}
+/* -------------------------------------
+    BODY
+------------------------------------- */
+table.body-wrap {
+  padding: 20px;
+  width: 100%;
+}
+table.body-wrap .container {
+  border: 1px solid #f0f0f0;
+}
+/* -------------------------------------
+    FOOTER
+------------------------------------- */
+table.footer-wrap {
+  clear: both !important;
+  width: 100%;  
+}
+.footer-wrap .container p {
+  color: #666666;
+  font-size: 12px;
+  
+}
+table.footer-wrap a {
+  color: #999999;
+}
+/* -------------------------------------
+    TYPOGRAPHY
+------------------------------------- */
+h1, 
+h2, 
+h3 {
+  color: #111111;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 200;
+  line-height: 1.2em;
+  margin: 40px 0 10px;
+}
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 22px;
+}
+p, 
+ul, 
+ol {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+ul li, 
+ol li {
+  margin-left: 5px;
+  list-style-position: inside;
+}
+/* ---------------------------------------------------
+    RESPONSIVENESS
+------------------------------------------------------ */
+/* Set a max-width, and make it display as block so it will automatically stretch to that width, but will also shrink down on a phone or something */
+.container {
+  clear: both !important;
+  display: block !important;
+  Margin: 0 auto !important;
+  max-width: 600px !important;
+}
+/* Set the padding on the td rather than the div for Outlook compatibility */
+.body-wrap .container {
+  padding: 20px;
+}
+/* This should also be a block element, so that it will fill 100% of the .container */
+.content {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+}
+/* Let's make sure tables in the content area are 100% wide */
+.content table {
+  width: 100%;
+}
+</style>
+</head>
+
+<body bgcolor="#f6f6f6">
+
+<!-- body -->
+<table class="body-wrap" bgcolor="#f6f6f6">
+  <tr>
+    <td></td>
+    <td class="container" bgcolor="#FFFFFF">
+
+      <!-- content -->
+      <div class="content">
+      <table>
+        <tr>
+         <td>
+            <h1>Data Extraction Results</h1>
+            <p>Extract date: 2024-06-10T05:00:43</p>
+            <p>The requested data was extracted using the following parameters:</p>
+            <ul>
+                <li>Data format: GEOTIFF</li>
+                <li>Coordinate system: EPSG:4326</li>
+                <li>Selected extent: POLYGON((145.24600265835014 -37.72271609331443,145.343118204639 -37.72271609331443,145.343118204639 -37.67297492595809,145.24600265835014 -37.67297492595809,145.24600265835014 -37.72271609331443))</li>
+             </ul>
+          </td>
+        </tr>
+      </table>
+      </div>
+      <!-- /content -->
+      
+    </td>
+    <td></td>
+  </tr>
+</table>
+<!-- /body -->
+
+<!-- footer -->
+<table class="footer-wrap">
+  <tr>
+    <td></td>
+    <td class="container">
+      
+      <!-- content -->
+      <div class="content">
+        <table>
+          <tr>
+            <td align="center">
+              <img src="data:image/jpg;base64,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"/>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <!-- /content -->
+      
+    </td>
+    <td></td>
+  </tr>
+</table>
+<!-- /footer -->
+
+</body>
+</html>
